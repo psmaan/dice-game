@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container {
+    margin-top: 50px;
+    background-color: blue;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 200px;
+    grid-gap: 10px;
+}
+
+.heading {
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice {
+    background-color: red;
+    display: flex;
+
+flex-direction: ;}
